@@ -253,11 +253,290 @@ var render = function() {
               )
             ],
             1
-          )
+          ),
+          _c("v-uni-view", { staticClass: _vm._$g(6, "sc"), attrs: { _i: 6 } })
         ],
         1
       ),
-      _c("v-uni-view", { staticClass: _vm._$g(6, "sc"), attrs: { _i: 6 } })
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(7, "sc"), attrs: { _i: 7 } },
+        [
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(8, "sc"), attrs: { _i: 8 } },
+            [
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(9, "sc"), attrs: { _i: 9 } },
+                [
+                  _c("v-uni-image", {
+                    staticClass: _vm._$g(10, "sc"),
+                    attrs: { src: _vm._$g(10, "a-src"), _i: 10 }
+                  }),
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(11, "sc"), attrs: { _i: 11 } },
+                    [_vm._v("自取")]
+                  )
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(12, "sc"), attrs: { _i: 12 } },
+                [
+                  _c("v-uni-image", {
+                    staticClass: _vm._$g(13, "sc"),
+                    attrs: { src: _vm._$g(13, "a-src"), _i: 13 }
+                  }),
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(14, "sc"), attrs: { _i: 14 } },
+                    [_vm._v("外卖")]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(15, "sc"), attrs: { _i: 15 } },
+            [
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(16, "sc"), attrs: { _i: 16 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(17, "sc"), attrs: { _i: 17 } },
+                    [
+                      _c(
+                        "v-uni-text",
+                        { staticClass: _vm._$g(18, "sc"), attrs: { _i: 18 } },
+                        [_vm._v("我的积分")]
+                      ),
+                      _c(
+                        "v-uni-text",
+                        { staticClass: _vm._$g(19, "sc"), attrs: { _i: 19 } },
+                        [_vm._v(_vm._$g(19, "t0-0"))]
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(20, "sc"), attrs: { _i: 20 } },
+                    [
+                      _vm._v("进入积分商城兑换奈雪券及周边好礼"),
+                      _c("v-uni-view", {
+                        staticClass: _vm._$g(21, "sc"),
+                        attrs: { _i: 21 }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(22, "sc"), attrs: { _i: 22 } },
+                [
+                  _c("v-uni-image", {
+                    attrs: { src: _vm._$g(23, "a-src"), _i: 23 }
+                  }),
+                  _c("v-uni-text", { attrs: { _i: 24 } }, [_vm._v("会员码")])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(25, "sc"), attrs: { _i: 25 } },
+            [
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(26, "sc"), attrs: { _i: 26 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(27, "sc"), attrs: { _i: 27 } },
+                    [
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(28, "sc"), attrs: { _i: 28 } },
+                        [
+                          _c("v-uni-image", {
+                            staticClass: _vm._$g(29, "sc"),
+                            attrs: { src: _vm._$g(29, "a-src"), _i: 29 }
+                          }),
+                          _c(
+                            "v-uni-view",
+                            {
+                              staticClass: _vm._$g(30, "sc"),
+                              attrs: { _i: 30 }
+                            },
+                            [_vm._v("奈雪的茶商城")]
+                          )
+                        ],
+                        1
+                      ),
+                      _c(
+                        "v-uni-view",
+                        {
+                          staticClass: _vm._$g(31, "sc"),
+                          staticStyle: {
+                            "margin-left": "40rpx",
+                            "font-size": "20rpx"
+                          },
+                          attrs: { _i: 31 }
+                        },
+                        [_vm._v("优质茶礼盒,网红零食")]
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(32, "sc"), attrs: { _i: 32 } },
+                    [
+                      _c("v-uni-image", {
+                        staticClass: _vm._$g(33, "sc"),
+                        attrs: {
+                          src: _vm._$g(33, "a-src"),
+                          mode: "heightFix",
+                          _i: 33
+                        }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(34, "sc"), attrs: { _i: 34 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(35, "sc"), attrs: { _i: 35 } },
+                    [
+                      _c("v-uni-image", {
+                        staticClass: _vm._$g(36, "sc"),
+                        attrs: { src: _vm._$g(36, "a-src"), _i: 36 }
+                      }),
+                      _c("v-uni-view", { attrs: { _i: 37 } }, [
+                        _vm._v("买茶送包")
+                      ]),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(38, "sc"), attrs: { _i: 38 } },
+                        [
+                          _c("v-uni-image", {
+                            attrs: {
+                              src: _vm._$g(39, "a-src"),
+                              mode: "widthFix",
+                              _i: 39
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(40, "sc"), attrs: { _i: 40 } },
+                    [
+                      _c("v-uni-image", {
+                        staticClass: _vm._$g(41, "sc"),
+                        attrs: { src: _vm._$g(41, "a-src"), _i: 41 }
+                      }),
+                      _c("v-uni-view", { attrs: { _i: 42 } }, [
+                        _vm._v("会员券包")
+                      ]),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(43, "sc"), attrs: { _i: 43 } },
+                        [
+                          _c("v-uni-image", {
+                            attrs: {
+                              src: _vm._$g(44, "a-src"),
+                              mode: "widthFix",
+                              _i: 44
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(45, "sc"), attrs: { _i: 45 } },
+            [
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(46, "sc"), attrs: { _i: 46 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(47, "sc"), attrs: { _i: 47 } },
+                    [_vm._v("会员新鲜事")]
+                  ),
+                  _c("v-uni-view", {
+                    staticClass: _vm._$g(48, "sc"),
+                    attrs: { _i: 48 }
+                  })
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(49, "sc"), attrs: { _i: 49 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(50, "sc"), attrs: { _i: 50 } },
+                    [
+                      _c("v-uni-image", {
+                        attrs: {
+                          src:
+                            "https://img-shop.qmimg.cn/s23107/2020/04/27/0039bf41c9ebd50a2c.jpg",
+                          _i: 51
+                        }
+                      }),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(52, "sc"), attrs: { _i: 52 } },
+                        [_vm._v('"梅你不行 | 霸气杨梅清爽回归"')]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
     ],
     1
   )
@@ -350,7 +629,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\n/**\n * 这里是uni-app内置的常用样式变量\n *\n * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量\n * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App\n *\n */\n/**\n * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能\n *\n * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件\n */\n/* 颜色变量 */\n/* 全局色彩 */\n/* 文字基本颜色 */\n/* 背景颜色 */\n/* 边框颜色 */\n/* 尺寸变量 */\n/* 文字尺寸 */\n/* 图片尺寸 */\n/* Border Radius */\n/* 水平间距 */\n/* 垂直间距 */\n/* 透明度 */\n/* 文章场景相关 */\n.content {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n}\n.banner {\n  position: relative;\n  height: 600rpx;\n  width: 100%;\n}\n.banner .bg {\n  height: 600rpx;\n  width: 100%;\n}\n.banner .intro {\n  position: absolute;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  color: #ffffff;\n  top: calc(50rpx + var(--status-bar-height));\n  left: 40rpx;\n}\n.banner .intro .greet {\n  font-size: 32rpx;\n  margin-bottom: 10rpx;\n}\n.banner .intro .note {\n  font-size: 24rpx;\n}\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n/**\n * 这里是uni-app内置的常用样式变量\n *\n * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量\n * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App\n *\n */\n/**\n * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能\n *\n * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件\n */\n/* 颜色变量 */\n/* 全局色彩 */\n/* 文字基本颜色 */\n/* 背景颜色 */\n/* 边框颜色 */\n/* 尺寸变量 */\n/* 文字尺寸 */\n/* 图片尺寸 */\n/* Border Radius */\n/* 水平间距 */\n/* 垂直间距 */\n/* 透明度 */\n/* 文章场景相关 */\n.banner {\n  position: relative;\n  height: 600rpx;\n  width: 100%;\n}\n.banner .bg {\n  height: 600rpx;\n  width: 100%;\n}\n.banner .intro {\n  position: absolute;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  color: #ffffff;\n  top: calc(50rpx + var(--status-bar-height));\n  left: 40rpx;\n}\n.banner .intro .greet {\n  font-size: 32rpx;\n  margin-bottom: 10rpx;\n}\n.banner .intro .note {\n  font-size: 24rpx;\n}\n.content {\n  padding: 0 30 rpx;\n}\n.content .entrance {\n  position: relative;\n  margin-top: -80rpx;\n  margin-bottom: 30rpx;\n  -webkit-border-radius: 10rpx;\n          border-radius: 10rpx;\n  background-color: #ffffff;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  padding: 30rpx 0;\n}\n.content .entrance .item {\n  position: relative;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-flex: 1;\n  -webkit-flex: auto;\n          flex: auto;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n}\n.content .entrance .item:nth-child(1):after {\n  content: '';\n  position: absolute;\n  width: 1rpx;\n  background-color: #919293;\n  right: 0;\n  height: 100%;\n  -webkit-transform: scaleX(0.5) scaleY(0.8);\n          transform: scaleX(0.5) scaleY(0.8);\n}\n.content .entrance .item .icon {\n  width: 84rpx;\n  height: 84rpx;\n  margin: 20rpx;\n}\n.content .entrance .item .title {\n  font-size: 30rpx;\n  font-weight: 600;\n  color: #5a5b5c;\n}\n.content .info {\n  margin-bottom: 30rpx;\n  -webkit-border-radius: 10rpx;\n          border-radius: 10rpx;\n  background-color: #ffffff;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n  padding: 30rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-between;\n          justify-content: space-between;\n}\n.content .info .integral_section {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n}\n.content .info .integral_section .top {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n}\n.content .info .integral_section .top .title {\n  color: #5a5b5c;\n  font-size: 28rpx;\n  margin-right: 10rpx;\n}\n.content .info .integral_section .top .value {\n  font-size: 44rpx;\n  font-weight: bold;\n}\n.content .info .integral_section .bottom {\n  font-size: 24rpx;\n  color: #919293;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n}\n.content .info .grcode_section {\n  color: #adb838;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  font-size: 24rpx;\n}\n.content .info .grcode_section uni-image {\n  width: 40rpx;\n  height: 40rpx;\n  margin-bottom: 10rpx;\n}\n.content .navigators {\n  width: 100%;\n  margin-bottom: 20rpx;\n  -webkit-border-radius: 10rpx;\n          border-radius: 10rpx;\n  background-color: #ffffff;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n  padding: 20rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: stretch;\n  -webkit-align-items: stretch;\n          align-items: stretch;\n}\n.content .navigators .left {\n  width: 340rpx;\n  margin-right: 20rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  padding: 0 20rpx;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  font-size: 24rpx;\n  color: #5a5b5c;\n  background-color: #f2f2e6;\n}\n.content .navigators .left .grid {\n  height: 50%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n}\n.content .navigators .right {\n  width: 290rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n}\n.content .navigators .right .tea-activity,\n.content .navigators .right .member-gifts {\n  width: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  padding: 20rpx;\n  font-size: 24rpx;\n  color: #5a5b5c;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  position: relative;\n}\n.content .navigators .right .tea-activity {\n  background-color: #fdf3f2;\n  margin-bottom: 20rpx;\n}\n.content .navigators .right .member-gifts {\n  background-color: #fcf6d4;\n}\n.content .navigators .right .right-img {\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n          flex: 1;\n  position: relative;\n  margin-left: 20rpx;\n  margin-right: -20rpx;\n  margin-bottom: -20rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: end;\n  -webkit-align-items: flex-end;\n          align-items: flex-end;\n}\n.content .navigators .right .right-img uni-image {\n  width: 100%;\n}\n.content .navigators .mark-img {\n  width: 30rpx;\n  height: 30rpx;\n  margin-right: 10rpx;\n}\n.content .navigators .yzclh-img {\n  height: 122.96rpx;\n  width: 214.86rpx;\n}\n.content .member-news {\n  width: 100%;\n  margin-bottom: 30rpx;\n}\n.content .member-news .header {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-between;\n          justify-content: space-between;\n  padding: 20rpx 0;\n}\n.content .member-news .header .title {\n  font-size: 32rpx;\n  font-weight: bold;\n}\n.content .member-news .header .iconfont {\n  font-size: 52rpx;\n  color: #919293;\n}\n.content .member-news .list {\n  width: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n}\n.content .member-news .list .item {\n  width: 100%;\n  height: 240rpx;\n  position: relative;\n}\n.content .member-news .list .item uni-image {\n  width: 100%;\n  height: 100%;\n  -webkit-border-radius: 8rpx;\n          border-radius: 8rpx;\n}\n.content .member-news .list .item .title {\n  position: relative;\n  font-size: 32rpx;\n  font-weight: 500;\n  width: 100%;\n  top: -70rpx;\n  left: 16rpx;\n  color: #ffffff;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
