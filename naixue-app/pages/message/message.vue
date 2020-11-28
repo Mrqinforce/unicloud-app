@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 	<view class="content">
 		<view class="input_box">
 			<textarea placeholder="请输入您要留言的内容" class="textarea border" v-model="message.content"></textarea>
@@ -135,3 +135,4 @@
 }
 
 </style>
+ -->
