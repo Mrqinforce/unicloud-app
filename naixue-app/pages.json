@@ -27,7 +27,15 @@
 				"navigationBarTitleText": "个人中心"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/login/login",
+            "style": {
+            	"navigationBarBackgroundColor": "#F8F8F8",
+            	"navigationBarTextStyle": "black",
+            	"navigationBarTitleText": "登录"
+            }
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
