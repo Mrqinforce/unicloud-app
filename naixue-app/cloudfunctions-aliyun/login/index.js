@@ -4,9 +4,12 @@ const jwt = require('jwt-simple');
 const db = uniCloud.database();
 const loginConfig = {
 	appId: 'wx093dd336fad35181',
-	appSecret: '10bc87bc0a8ebd53fc4bcf1255dc0e3c'
+	appSecret: '7b109569f684eccee7a910d60435839b'
 };
 exports.main = async (event, context) => {
+	//event为客户端上传的参数
+	console.log(event.userInfo);
+	console.log(event.code);
 	let data = {
 		appid: loginConfig.appId,
 		secret: loginConfig.appSecret,
@@ -18,6 +21,9 @@ exports.main = async (event, context) => {
 		data,
 		dataType: 'json'
 	});
+	console.log(res.status);
+	console.log(res.data);
+	console.log(res.data.openid);
 	const success = res.status === 200 && res.data && res.data.openid;
 
 	if (!success) {
@@ -46,7 +52,8 @@ exports.main = async (event, context) => {
 		level: '',
 		pointNum: '',
 		createTime: time,
-		lastLoginTime: time
+		lastLoginTime: time,
+		needValue: ''
 	}
 
 	let userUpdate = {
@@ -58,10 +65,10 @@ exports.main = async (event, context) => {
 		lastLoginTime: time
 	}
 	let userResult
+
 	const userInDB = await db.collection('users').where({
 		openId
 	}).limit(1).get();
-	
 	if (userInDB.data && userInDB.data.length === 0) {
 		userResult = await db.collection('users').add({
 			...userInfo,
@@ -86,8 +93,9 @@ exports.main = async (event, context) => {
 		giftBalance: 1,
 		level: 1,
 		pointNum: 1,
-		gender: 1
-	};
+		gender: 1,
+		needValue: 1
+	}
 
 
 	let ResultOK = await db.collection('users').where({
@@ -102,6 +110,8 @@ exports.main = async (event, context) => {
 			"msg": '登录成功'
 		}
 	}
+
+	//返回数据给客户端
 	return {
 		"status": -1,
 		"msg": '微信登录失败'

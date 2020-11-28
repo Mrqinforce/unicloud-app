@@ -131,71 +131,14 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni, uniCloud) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var _vuex = __webpack_require__(/*! vuex */ 12);function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =
 {
   data: function data() {
     return {};
   },
-  computed: {
-    // ...mapState(['userInfo', 'isLogin'])
-  },
+  computed: _objectSpread({},
+  (0, _vuex.mapState)(['userInfo', 'isLogin'])),
+
   methods: _objectSpread(_objectSpread({},
   (0, _vuex.mapMutations)(['Login'])), {}, {
     wxLogin: function wxLogin(e) {
@@ -203,7 +146,7 @@ var _vuex = __webpack_require__(/*! vuex */ 12);function ownKeys(object, enumera
       var userInfo = e.detail.userInfo;
       console.log(userInfo);
       uni.showLoading({
-        title: '登陆中...' });
+        title: '登录中...' });
 
       return new Promise(function (resolve, reject) {
         uni.login({
@@ -216,7 +159,7 @@ var _vuex = __webpack_require__(/*! vuex */ 12);function ownKeys(object, enumera
             }
           },
           fail: function fail(e) {
-            reject(new Error('微信登陆失败'));
+            reject(new Error('微信登录失败'));
           } });
 
       }).
@@ -236,14 +179,14 @@ var _vuex = __webpack_require__(/*! vuex */ 12);function ownKeys(object, enumera
         if (res.result.status !== 0) {
           return Promise.reject(new Error(res.result.msg));
         }
-        // console.log("userInfo:"+this.store.state.userInfo);
+        console.log(res.result.data);
         that.Login(res.result.data);
         uni.setStorage({
           key: 'token',
           data: res.result.token });
 
         uni.showModal({
-          content: '登陆成功',
+          content: ' 登录成功',
           showCancel: false });
 
         uni.hideLoading();
@@ -253,7 +196,7 @@ var _vuex = __webpack_require__(/*! vuex */ 12);function ownKeys(object, enumera
         console.log(err);
         uni.hideLoading();
         uni.showModal({
-          content: '出现错误，稍后再试' + err.message,
+          content: '出现错误,请稍后再试.' + err.message,
           showCancel: false });
 
       });
