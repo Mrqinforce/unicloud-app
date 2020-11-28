@@ -34,7 +34,34 @@
             	"navigationBarTextStyle": "black",
             	"navigationBarTitleText": "登录"
             }
-        }
+        },{
+            "path" : "pages/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的地址",
+                "navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8"
+            }
+            
+        },
+		{
+			"path" : "pages/address/add",
+			"style" :                                                                                    
+			{
+			    "navigationBarTitleText": "添加地址",
+			    "navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path" : "pages/address/edit",
+			"style" :                                                                                    
+			{
+			    "navigationBarTitleText": "修改地址",
+			    "navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

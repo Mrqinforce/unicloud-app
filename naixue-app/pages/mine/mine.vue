@@ -143,7 +143,7 @@
 					<view class="image"><image src="/static/images/mine/wdzl.png"></image></view>
 					<view>我的资料</view>
 				</view>
-				<view class="grid">
+				<view class="grid" @click="addresses">
 					<view class="image"><image src="/static/images/mine/shdz.png"></image></view>
 					<view>收货地址</view>
 				</view>
@@ -189,7 +189,12 @@ export default {
 			uni.navigateTo({
 				url: '/pages/login/login'
 			});
-		}
+		},
+		addresses(){
+					uni.navigateTo({
+						url:'/pages/address/address'
+					})
+				},
 	}
 };
 </script>
