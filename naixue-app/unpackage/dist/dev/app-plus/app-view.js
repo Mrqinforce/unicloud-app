@@ -136,8 +136,8 @@ if (typeof Promise !== 'undefined' && !Promise.prototype.finally) {
 if (uni.restoreGlobal) {
   uni.restoreGlobal(weex, plus, setTimeout, clearTimeout, setInterval, clearInterval);
 }
-__definePage('pages/stores/stores', function () {return Vue.extend(__webpack_require__(/*! pages/stores/stores.vue?mpType=page */ 2).default);});
 __definePage('pages/index/index', function () {return Vue.extend(__webpack_require__(/*! pages/index/index.vue?mpType=page */ 14).default);});
+__definePage('pages/stores/stores', function () {return Vue.extend(__webpack_require__(/*! pages/stores/stores.vue?mpType=page */ 2).default);});
 __definePage('pages/menu/menu', function () {return Vue.extend(__webpack_require__(/*! pages/menu/menu.vue?mpType=page */ 22).default);});
 __definePage('pages/take-foods/take-foods', function () {return Vue.extend(__webpack_require__(/*! pages/take-foods/take-foods.vue?mpType=page */ 27).default);});
 __definePage('pages/mine/mine', function () {return Vue.extend(__webpack_require__(/*! pages/mine/mine.vue?mpType=page */ 32).default);});
@@ -145,7 +145,6 @@ __definePage('pages/login/login', function () {return Vue.extend(__webpack_requi
 __definePage('pages/address/address', function () {return Vue.extend(__webpack_require__(/*! pages/address/address.vue?mpType=page */ 48).default);});
 __definePage('pages/address/add', function () {return Vue.extend(__webpack_require__(/*! pages/address/add.vue?mpType=page */ 71).default);});
 __definePage('pages/address/edit', function () {return Vue.extend(__webpack_require__(/*! pages/address/edit.vue?mpType=page */ 84).default);});
-__definePage('pages/stores/stores', function () {return Vue.extend(__webpack_require__(/*! pages/stores/stores.vue?mpType=page */ 2).default);});
 
 /***/ }),
 /* 2 */
@@ -1172,7 +1171,15 @@ var render = function() {
             [
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(9, "sc"), attrs: { _i: 9 } },
+                {
+                  staticClass: _vm._$g(9, "sc"),
+                  attrs: { _i: 9 },
+                  on: {
+                    click: function($event) {
+                      return _vm.$handleViewEvent($event)
+                    }
+                  }
+                },
                 [
                   _c("v-uni-image", {
                     staticClass: _vm._$g(10, "sc"),
@@ -1188,7 +1195,15 @@ var render = function() {
               ),
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(12, "sc"), attrs: { _i: 12 } },
+                {
+                  staticClass: _vm._$g(12, "sc"),
+                  attrs: { _i: 12 },
+                  on: {
+                    click: function($event) {
+                      return _vm.$handleViewEvent($event)
+                    }
+                  }
+                },
                 [
                   _c("v-uni-image", {
                     staticClass: _vm._$g(13, "sc"),
