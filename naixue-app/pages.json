@@ -65,7 +65,11 @@
 				"navigationBarBackgroundColor": "#F8F8F8"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/pay/pay",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
