@@ -1,5 +1,12 @@
 {
-	"pages": [
+	"pages": [{
+			"path": "pages/stores/stores",
+			"style": {
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "选择门店"
+			}
+		},
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -26,43 +33,42 @@
 				"navigationBarTextStyle": "black",
 				"navigationBarTitleText": "个人中心"
 			}
-		}
-	    ,{
-            "path" : "pages/login/login",
-            "style": {
-            	"navigationBarBackgroundColor": "#F8F8F8",
-            	"navigationBarTextStyle": "black",
-            	"navigationBarTitleText": "登录"
-            }
-        },{
-            "path" : "pages/address/address",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "我的地址",
-                "navigationBarTextStyle": "black",
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "我的地址",
+				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#F8F8F8"
-            }
-            
-        },
+			}
+
+		},
 		{
-			"path" : "pages/address/add",
-			"style" :                                                                                    
-			{
-			    "navigationBarTitleText": "添加地址",
-			    "navigationBarTextStyle": "black",
+			"path": "pages/address/add",
+			"style": {
+				"navigationBarTitleText": "添加地址",
+				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#F8F8F8"
 			}
 		},
 		{
-			"path" : "pages/address/edit",
-			"style" :                                                                                    
-			{
-			    "navigationBarTitleText": "修改地址",
-			    "navigationBarTextStyle": "black",
+			"path": "pages/address/edit",
+			"style": {
+				"navigationBarTitleText": "修改地址",
+				"navigationBarTextStyle": "black",
 				"navigationBarBackgroundColor": "#F8F8F8"
 			}
+		}, {
+			"path": "pages/stores/stores",
+			"style": {}
 		}
-    ],
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
