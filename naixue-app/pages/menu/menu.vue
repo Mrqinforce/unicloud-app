@@ -395,7 +395,7 @@ export default {
 			});
 		},
 		init() {
-			if (Object.keys(this.choseStore).length == 0 && this.orderType == 'takein') {
+			if (Object.keys(this.choseStore).length == 0) {
 				uni.navigateTo({
 					url: '../stores/stores'
 				});

@@ -55,5 +55,6 @@
       "desc": "查找附近门店"
     }
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap91.json"
 }

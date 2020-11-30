@@ -586,7 +586,7 @@ var _vuex = __webpack_require__(/*! vuex */ 12);function ownKeys(object, enumera
 
     },
     init: function init() {var _this3 = this;
-      if (Object.keys(this.choseStore).length == 0 && this.orderType == 'takein') {
+      if (Object.keys(this.choseStore).length == 0) {
         uni.navigateTo({
           url: '../stores/stores' });
 
