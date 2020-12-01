@@ -73,6 +73,10 @@
             "path" : "pages/remark/remark",
             "style" : {}
         }
+        ,{
+            "path" : "pages/member-code/member-code",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
