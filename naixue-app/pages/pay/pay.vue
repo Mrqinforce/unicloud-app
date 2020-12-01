@@ -346,7 +346,7 @@
 			pay(){
 				uni.removeStorageSync('cart');
 				uni.reLaunch({
-					url:'/pages/take-foods/take-foods?order_id=' + "160674897815dc57a6"
+					url:'/pages/take-foods/take-foods?order_id=' + "160679104443a80ce5"
 				});
 			}
 		}

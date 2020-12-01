@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "奈雪の茶",
+  "usingComponents": {
+    "list-cell": "/components/list-cell/list-cell"
+  }
+}
