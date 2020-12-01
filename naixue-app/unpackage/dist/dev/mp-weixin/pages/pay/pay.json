@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "list-cell": "/components/list-cell/list-cell",
-    "modal": "/components/modal/modal"
-  }
-}
